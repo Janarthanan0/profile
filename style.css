@@ -266,12 +266,20 @@ section {
 #about {
   position: relative;
   text-align: center;
+ 
+}
+.title {
+  margin-bottom: 30px; /* Space between "About Me" title and tables */
+}
+
+.section-container {
+  margin-top: 20px; /* Space between the about text and the tables */
 }
 
 .about-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
+  gap: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .about-details-container {
@@ -283,17 +291,18 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
+  
 }
 
-.about-pic {
-  border-radius: 2rem;
-}
+/* .about-pic {
+  border-radius: 2re;
+} */
 
-.arrow {
+/* .arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
-}
+} */
 
 .details-container {
   padding: 1.5rem;
